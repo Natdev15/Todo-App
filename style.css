@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+    background-image: url(images/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0 auto;
+    height: 625px;
+}
+
+.add{
+    margin-top: 250px;
+    text-align: center;
+    display: inline-block;
+}
+#todo-app{
+    
+    box-shadow: 4px 4px 8px white;
+    margin: 20px;
+}
+.btn0{
+    margin-top: 20px;
+    padding: 10px;
+}
+.btn01{
+    background-color: rgb(61, 61, 209);
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.btn02{
+    background-color: rgb(190, 40, 40);
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+.btn01,.btn02,.btn,.btn1:hover{
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btn{
+    background-color: rgb(45, 45, 247);
+    color: black;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+.btn1{
+    background-color: rgb(231, 41, 41);
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 3px;
+}
